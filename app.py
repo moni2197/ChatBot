@@ -1,14 +1,14 @@
 #imports
 from flask import Flask, render_template, request
 from chatterbot import ChatBot
-#from chatterbot.trainers import ChatterBotCorpusTrainer
+from chatterbot.trainers import ChatterBotCorpusTrainer
 from chatterbot.trainers import ListTrainer
 app = Flask(__name__,template_folder = 'templates')
 #create chatbot
 englishBot = ChatBot("Chatterbot", storage_adapter="chatterbot.storage.SQLStorageAdapter")
 chatbot = ChatBot("Always")
-#trainer = ChatterBotCorpusTrainer(englishBot)
-#trainer.train("chatterbot.corpus.english") #train the chatter bot for english
+trainer = ChatterBotCorpusTrainer(englishBot)
+trainer.train("chatterbot.corpus.english") #train the chatter bot for english
 conversation = [
     "Hi mona",
     "Hi Srushu. I love you.",
