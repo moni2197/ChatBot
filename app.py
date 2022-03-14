@@ -26,7 +26,7 @@ conversation = [
     "Ofcourse, you are absolutely gorgeous srushaa. You are my Andromeda, and I can stare at you without getting tired, or bored, because it probably is the best view in this entire world, or even afar.",
     "What about 5 mar?",
     "Let me give you a memory that you hopefully wont forget, ever. Now Long Way Home will make sense to me. I guess this is what it feels like. Nasik Shebang checked."
-    "I love youuuu"
+    "I love youuuu moni"
     "I love you tooo my precious."
    
     
